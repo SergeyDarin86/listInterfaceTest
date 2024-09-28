@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
+    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Добавил класс-заготовку TestTask для тестового задания">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultiThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/TestTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,12 +37,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MultiThreading">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.darin.testList.Main" />
       <module name="listInterfaceTest" />
@@ -50,9 +54,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MainQueue" />
+      <module name="listInterfaceTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MultiThreading" />
+      <module name="listInterfaceTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.TestTask" />
+      <module name="listInterfaceTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreading" />
+        <item itemvalue="Application.MainQueue" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestTask" />
       </list>
     </recent_temporary>
   </component>
@@ -67,8 +113,37 @@
       <workItem from="1726253426707" duration="1694000" />
       <workItem from="1726311950983" duration="2562000" />
       <workItem from="1726394177208" duration="1029000" />
-      <workItem from="1726416949200" duration="943000" />
+      <workItem from="1726416949200" duration="2767000" />
+      <workItem from="1726493405432" duration="12376000" />
+      <workItem from="1726579896146" duration="4320000" />
+      <workItem from="1726666171605" duration="14000" />
+      <workItem from="1726999815106" duration="270000" />
+      <workItem from="1727004775817" duration="10000" />
+      <workItem from="1727182295817" duration="4450000" />
+      <workItem from="1727268319219" duration="5080000" />
+      <workItem from="1727290391390" duration="1559000" />
+      <workItem from="1727340580012" duration="9000" />
+      <workItem from="1727340957002" duration="5113000" />
+      <workItem from="1727354558764" duration="1404000" />
+      <workItem from="1727443167265" duration="8000" />
+      <workItem from="1727443264004" duration="6734000" />
+      <workItem from="1727548276470" duration="221000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1726417918603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726417918603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавил класс-заготовку TestTask для тестового задания">
+      <created>1726502948159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726502948159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +159,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Добавил класс-заготовку TestTask для тестового задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил класс-заготовку TestTask для тестового задания" />
   </component>
 </project>
