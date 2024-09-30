@@ -16,6 +16,8 @@ public class MultithreadingLockMonitor {
     Object lock1 = new Object();
     Object lock2 = new Object();
 
+    // Данные synchronized-блоки ускоряют работу программы в многопоточном режиме
+    // второму потоку не нужно ждать, когда первый поток закончит свою работу - он может переключиться на второй монитор
     public void addToList1() {
         synchronized (lock1) {
             try {
