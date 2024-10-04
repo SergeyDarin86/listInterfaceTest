@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Добавлен класс ProducerConsumerPattern. Пример работы с многопоточностью - паттерн Producer-Consumer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/WaitNotify.java" afterDir="false" />
+    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultiThreading.java" afterDir="false" />
@@ -41,9 +40,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WaitNotify">
-    <configuration name="MultithreadingLockMonitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MultithreadingLockMonitor" />
+  <component name="RunManager" selected="Application.MainQueue">
+    <configuration name="MainQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MainQueue" />
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultithreadingSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MultithreadingSynchronized" />
+    <configuration name="MultithreadingLockMonitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MultithreadingLockMonitor" />
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainQueue" />
         <item itemvalue="Application.WaitNotify" />
         <item itemvalue="Application.ProducerConsumerPattern" />
         <item itemvalue="Application.ThreadPoolExample" />
         <item itemvalue="Application.MultithreadingLockMonitor" />
-        <item itemvalue="Application.MultithreadingSynchronized" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +147,7 @@
       <workItem from="1727720578023" duration="1454000" />
       <workItem from="1727778852723" duration="5260000" />
       <workItem from="1727793781400" duration="18000" />
+      <workItem from="1727876785738" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1726417918603</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727779322451</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()">
+      <created>1727876935468</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727876935468</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +230,7 @@
     <MESSAGE value="Добавлен класс MultithreadingLockMonitor. Пример работы с многопоточностью - synchronized-блок" />
     <MESSAGE value="Добавлен класс ThreadPoolExample. Пример работы с многопоточностью - ExecutorService" />
     <MESSAGE value="Добавлен класс ProducerConsumerPattern. Пример работы с многопоточностью - паттерн Producer-Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс ProducerConsumerPattern. Пример работы с многопоточностью - паттерн Producer-Consumer" />
+    <MESSAGE value="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()" />
   </component>
 </project>
