@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Добавлен класс MainQueue. Пример работы с классами, реализующими интерфейс Queue">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultiThreading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultithreadingSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultithreadingSynchronized.java" afterDir="false" />
@@ -148,6 +147,7 @@
       <workItem from="1727778852723" duration="5260000" />
       <workItem from="1727793781400" duration="18000" />
       <workItem from="1727876785738" duration="925000" />
+      <workItem from="1728056072873" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1726417918603</created>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727876935468</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавлен класс MainQueue. Пример работы с классами, реализующими интерфейс Queue">
+      <created>1728056263939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728056263939</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +238,7 @@
     <MESSAGE value="Добавлен класс ThreadPoolExample. Пример работы с многопоточностью - ExecutorService" />
     <MESSAGE value="Добавлен класс ProducerConsumerPattern. Пример работы с многопоточностью - паттерн Producer-Consumer" />
     <MESSAGE value="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()" />
+    <MESSAGE value="Добавлен класс MainQueue. Пример работы с классами, реализующими интерфейс Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс MainQueue. Пример работы с классами, реализующими интерфейс Queue" />
   </component>
 </project>

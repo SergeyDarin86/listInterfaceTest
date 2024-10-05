@@ -33,12 +33,10 @@ public class MultithreadingSynchronized {
         System.out.println(count);
     }
 
-    /*
-    1: 100 -> 101 -> 102 - 103 -> 104 .. -> 102
-    2: 100 -> 101
-     */
-    public synchronized void increment(){
-        count++;
+    public void increment(){
+        synchronized (this){
+            count++;
+        }
     }
 
 }
