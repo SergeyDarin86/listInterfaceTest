@@ -24,7 +24,7 @@ class Runner implements Runnable {
 
 class ThreadClass extends Thread {
 
-    public volatile boolean running = true;
+    private volatile boolean running = true;
 
     public void run() {
         while (running) {

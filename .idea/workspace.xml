@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Добавлен класс MainQueue. Пример работы с классами, реализующими интерфейс Queue">
+    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Рефактор кода MultithreadingSynchronized">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultiThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultiThreading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultithreadingSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/MultithreadingSynchronized.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/TestTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +147,7 @@
       <workItem from="1727793781400" duration="18000" />
       <workItem from="1727876785738" duration="925000" />
       <workItem from="1728056072873" duration="234000" />
+      <workItem from="1728151278301" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1726417918603</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728056263939</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Рефактор кода MultithreadingSynchronized">
+      <created>1728151356285</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728151356285</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +246,7 @@
     <MESSAGE value="Добавлен класс ProducerConsumerPattern. Пример работы с многопоточностью - паттерн Producer-Consumer" />
     <MESSAGE value="Добавлен класс WaitNotify. Пример работы с многопоточностью - методы wait() и notify()" />
     <MESSAGE value="Добавлен класс MainQueue. Пример работы с классами, реализующими интерфейс Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен класс MainQueue. Пример работы с классами, реализующими интерфейс Queue" />
+    <MESSAGE value="Рефактор кода MultithreadingSynchronized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефактор кода MultithreadingSynchronized" />
   </component>
 </project>
