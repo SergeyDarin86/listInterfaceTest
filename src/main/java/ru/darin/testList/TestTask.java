@@ -1,9 +1,6 @@
 package ru.darin.testList;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class TestTask {
 
@@ -11,6 +8,8 @@ public class TestTask {
     // 1) Строка не должна быть пустой
     // 2) Должны быть только буквы или цифры
     private static String str = "";
+
+    private static final String PATTERN = "^[а-яА-ЯёЁa-zA-Z0-9]+$";
     private static Map<Character, Integer> map = new HashMap<>();
 
     public static void main(String[] args) {
@@ -23,11 +22,18 @@ public class TestTask {
         while (!str.equalsIgnoreCase("exit")) {
             Scanner in = new Scanner(System.in);
             System.out.print("Введите строку: ");
-            str = in.next();
+            try {
+                str = in.next(PATTERN);
+            }catch (InputMismatchException e){
+                System.out.println("Неверный формат ввода данных: Вы должны ввести набор из цифр, букв (латиница, кириллица)");
+                str = "";
+            }
+
             if (!str.equalsIgnoreCase("exit")) {
                 char[] chars = str.toCharArray();
                 fillMap(chars);
                 showMap();
+//                showMapNew();
             }
         }
 
@@ -55,5 +61,12 @@ public class TestTask {
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .forEach(entry -> System.out.println("\"" + entry.getKey() + "\" : \"" + entry.getValue() + "\""));
     }
+
+    public static void showMapNew() {
+        List<Map.Entry<Character, Integer>> entryList= map.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).toList();
+    }
+
 
 }
