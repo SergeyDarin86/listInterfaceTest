@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Пример использования класса CountDownLatch">
+    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Рефактор кода в классе SemaphoreExample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/TestTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,16 +46,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/79198/IdeaProjects/java_basics/Multithreading/Deadlock"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SemaphoreExample">
-    <configuration name="CountDownLatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.CountDownLatchExample" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.darin.testList.testing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NetworkUtilsTest.getConnectionShouldReturnFasterThanOneSecond">
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.annotations.MyClass" />
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="PATTERN" value="ru.darin.testList.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,65 +73,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MainQueue" />
+    <configuration name="MyMathTest.divideShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="PATTERN" value="ru.darin.testList.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.darin.testList.testing" />
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.testing.MyMathTest" />
+      <option name="METHOD_NAME" value="divideShouldThrowException" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.ReentrantLockExample" />
+    <configuration name="NetworkUtilsTest.getConnectionShouldReturnFasterThanOneSecond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="PATTERN" value="ru.darin.testList.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.darin.testList.testing" />
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.testing.NetworkUtilsTest" />
+      <option name="METHOD_NAME" value="getConnectionShouldReturnFasterThanOneSecond" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.SemaphoreExample" />
+    <configuration name="Vector2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="PATTERN" value="ru.darin.testList.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.darin.testList.testing" />
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.testing.Vector2DTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotify2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.WaitAndNotify2" />
+    <configuration name="Vector2DTest.newVectorShouldHaveZeroLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.darin.testList.*" />
+          <option name="PATTERN" value="ru.darin.testList.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.darin.testList.testing" />
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.testing.Vector2DTest" />
+      <option name="METHOD_NAME" value="newVectorShouldHaveZeroLength" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SemaphoreExample" />
-        <item itemvalue="Application.ReentrantLockExample" />
-        <item itemvalue="Application.CountDownLatchExample" />
-        <item itemvalue="Application.WaitAndNotify2" />
-        <item itemvalue="Application.MainQueue" />
+        <item itemvalue="JUnit.NetworkUtilsTest.getConnectionShouldReturnFasterThanOneSecond" />
+        <item itemvalue="JUnit.MyMathTest.divideShouldThrowException" />
+        <item itemvalue="JUnit.Vector2DTest" />
+        <item itemvalue="JUnit.Vector2DTest.newVectorShouldHaveZeroLength" />
+        <item itemvalue="Application.MyClass" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +187,19 @@
       <workItem from="1729264542018" duration="312000" />
       <workItem from="1729442587318" duration="741000" />
       <workItem from="1729512435514" duration="4622000" />
+      <workItem from="1729588840110" duration="6865000" />
+      <workItem from="1729693827372" duration="4731000" />
+      <workItem from="1729775416307" duration="4800000" />
+      <workItem from="1729867030263" duration="6881000" />
+      <workItem from="1729947776249" duration="8351000" />
+      <workItem from="1730023604920" duration="4215000" />
+      <workItem from="1730128834942" duration="3125000" />
+      <workItem from="1730187891500" duration="7018000" />
+      <workItem from="1730296649289" duration="1393000" />
+      <workItem from="1730367736257" duration="5526000" />
+      <workItem from="1730464788617" duration="1274000" />
+      <workItem from="1730540893583" duration="2937000" />
+      <workItem from="1730627457110" duration="7450000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1726417918603</created>
@@ -256,7 +292,98 @@
       <option name="project" value="LOCAL" />
       <updated>1729512508221</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Пример использования класса ReentrantLock">
+      <created>1729589071495</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729589071495</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Пример использования класса Semaphore">
+      <created>1729693878533</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729693878533</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Пример возникновения deadlock и способы его решения">
+      <created>1729775521274</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729775521274</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Пример возникновения deadlock и способы решения на примере задачи из SkillBox">
+      <created>1729867404616</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729867404616</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Пример работы с интерфейсами Callable и Future">
+      <created>1729947829391</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729947829391</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Пример работы с прерыванием потоков">
+      <created>1730023945017</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730023945017</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Добавлены комментарии к действиям некоторых методов">
+      <created>1730128986235</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1730128986235</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Пример работы с классами Pattern и Matcher">
+      <created>1730188024299</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1730188024299</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Пример работы с регулярными выражениями в классе RegexExample">
+      <created>1730296746695</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730296746695</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Пример работы с лямбда-выражениями">
+      <created>1730367820337</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730367820337</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Пример работы с лямбда - создание своего компаратора + основные методы">
+      <created>1730465105967</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730465105967</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Рефактор кода">
+      <created>1730541211392</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1730541211392</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Рефактор кода в классе SemaphoreExample">
+      <created>1730627653796</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730627653796</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Добавил класс-заготовку TestTask для тестового задания" />
     <MESSAGE value="Добавлен класс MultiThreading. Пример работы с многопоточностью - ключевое слово volatile" />
     <MESSAGE value="Добавлен класс MultithreadingSynchronized. Пример работы с многопоточностью - ключевое слово synchronized" />
@@ -287,6 +413,19 @@
     <MESSAGE value="Рефактор кода MultiThreading" />
     <MESSAGE value="Использование методов wait() и notify() в классе WaitAndNotify2" />
     <MESSAGE value="Пример использования класса CountDownLatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пример использования класса CountDownLatch" />
+    <MESSAGE value="Пример использования класса ReentrantLock" />
+    <MESSAGE value="Пример использования класса Semaphore" />
+    <MESSAGE value="Пример возникновения deadlock и способы его решения" />
+    <MESSAGE value="Пример возникновения deadlock и способы решения на примере задачи из SkillBox" />
+    <MESSAGE value="Пример работы с интерфейсами Callable и Future" />
+    <MESSAGE value="Пример работы с прерыванием потоков" />
+    <MESSAGE value="Добавлены комментарии к действиям некоторых методов" />
+    <MESSAGE value="Пример работы с классами Pattern и Matcher" />
+    <MESSAGE value="Пример работы с регулярными выражениями в классе RegexExample" />
+    <MESSAGE value="Пример работы с лямбда-выражениями" />
+    <MESSAGE value="Пример работы с лямбда - создание своего компаратора + основные методы" />
+    <MESSAGE value="Рефактор кода" />
+    <MESSAGE value="Рефактор кода в классе SemaphoreExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефактор кода в классе SemaphoreExample" />
   </component>
 </project>
