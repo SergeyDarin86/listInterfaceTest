@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Рефактор кода в классе SemaphoreExample">
+    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Пример работы с аннотациями">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/79198/IdeaProjects/java_basics/Multithreading/Deadlock"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/79198/IdeaProjects/java_basics/Multithreading/Deadlock&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -59,13 +58,39 @@
       <recent name="ru.darin.testList.testing" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NetworkUtilsTest.getConnectionShouldReturnFasterThanOneSecond">
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.annotations.MyClass" />
+  <component name="RunManager" selected="Application.TestReflectionNew">
+    <configuration name="TestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.reflection.TestReflection" />
       <module name="listInterfaceTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.darin.testList.annotations.*" />
+          <option name="PATTERN" value="ru.darin.testList.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestReflectionNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.reflection.TestReflectionNew" />
+      <module name="listInterfaceTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.darin.testList.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.darin.testList.MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.MyClass" />
+      <module name="listInterfaceTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.darin.testList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,44 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vector2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="listInterfaceTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.darin.testList.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.darin.testList.testing" />
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.testing.Vector2DTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vector2DTest.newVectorShouldHaveZeroLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="listInterfaceTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.darin.testList.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.darin.testList.testing" />
-      <option name="MAIN_CLASS_NAME" value="ru.darin.testList.testing.Vector2DTest" />
-      <option name="METHOD_NAME" value="newVectorShouldHaveZeroLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestReflectionNew" />
+        <item itemvalue="Application.TestReflection" />
+        <item itemvalue="Application.ru.darin.testList.MyClass" />
         <item itemvalue="JUnit.NetworkUtilsTest.getConnectionShouldReturnFasterThanOneSecond" />
         <item itemvalue="JUnit.MyMathTest.divideShouldThrowException" />
-        <item itemvalue="JUnit.Vector2DTest" />
-        <item itemvalue="JUnit.Vector2DTest.newVectorShouldHaveZeroLength" />
-        <item itemvalue="Application.MyClass" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +194,8 @@
       <workItem from="1730464788617" duration="1274000" />
       <workItem from="1730540893583" duration="2937000" />
       <workItem from="1730627457110" duration="7450000" />
+      <workItem from="1730743550737" duration="174000" />
+      <workItem from="1730792559524" duration="9057000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1726417918603</created>
@@ -383,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730627653796</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Пример с тестированием методов">
+      <created>1730743629639</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1730743629639</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Пример работы с аннотациями">
+      <created>1730800022480</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1730800022480</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,8 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавил класс-заготовку TestTask для тестового задания" />
-    <MESSAGE value="Добавлен класс MultiThreading. Пример работы с многопоточностью - ключевое слово volatile" />
     <MESSAGE value="Добавлен класс MultithreadingSynchronized. Пример работы с многопоточностью - ключевое слово synchronized" />
     <MESSAGE value="Добавлен класс MultithreadingLockMonitor. Пример работы с многопоточностью - synchronized-блок" />
     <MESSAGE value="Добавлен класс ThreadPoolExample. Пример работы с многопоточностью - ExecutorService" />
@@ -426,6 +434,8 @@
     <MESSAGE value="Пример работы с лямбда - создание своего компаратора + основные методы" />
     <MESSAGE value="Рефактор кода" />
     <MESSAGE value="Рефактор кода в классе SemaphoreExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рефактор кода в классе SemaphoreExample" />
+    <MESSAGE value="Пример с тестированием методов" />
+    <MESSAGE value="Пример работы с аннотациями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пример работы с аннотациями" />
   </component>
 </project>
