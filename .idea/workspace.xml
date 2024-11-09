@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Пример работы с аннотациями">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="47e6655a-e02d-41df-a2b8-17bdb31e1a16" name="Changes" comment="Пример работы с рефлексией">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/darin/testList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,6 +195,7 @@
       <workItem from="1730627457110" duration="7450000" />
       <workItem from="1730743550737" duration="174000" />
       <workItem from="1730792559524" duration="9057000" />
+      <workItem from="1730918635252" duration="685000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1726417918603</created>
@@ -393,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730800022480</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Пример работы с рефлексией">
+      <created>1730918690491</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1730918690491</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +418,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Добавлен класс MultithreadingSynchronized. Пример работы с многопоточностью - ключевое слово synchronized" />
     <MESSAGE value="Добавлен класс MultithreadingLockMonitor. Пример работы с многопоточностью - synchronized-блок" />
     <MESSAGE value="Добавлен класс ThreadPoolExample. Пример работы с многопоточностью - ExecutorService" />
     <MESSAGE value="Добавлен класс ProducerConsumerPattern. Пример работы с многопоточностью - паттерн Producer-Consumer" />
@@ -436,6 +442,7 @@
     <MESSAGE value="Рефактор кода в классе SemaphoreExample" />
     <MESSAGE value="Пример с тестированием методов" />
     <MESSAGE value="Пример работы с аннотациями" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пример работы с аннотациями" />
+    <MESSAGE value="Пример работы с рефлексией" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пример работы с рефлексией" />
   </component>
 </project>
